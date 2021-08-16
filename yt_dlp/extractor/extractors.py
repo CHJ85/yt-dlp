@@ -109,6 +109,7 @@ from .awaan import (
 from .azmedien import AZMedienIE
 from .baidu import BaiduVideoIE
 from .bandaichannel import BandaiChannelIE
+from .bannedvideo import BannedVideoIE
 from .bandcamp import (
     BandcampIE,
     BandcampAlbumIE,
@@ -420,7 +421,6 @@ from .fc2 import (
     FC2EmbedIE,
 )
 from .fczenit import FczenitIE
-from .filmmodu import FilmmoduIE
 from .filmon import (
     FilmOnIE,
     FilmOnChannelIE,
@@ -1044,7 +1044,6 @@ from .pornhd import PornHdIE
 from .pornhub import (
     PornHubIE,
     PornHubUserIE,
-    PornHubPlaylistIE,
     PornHubPagedVideoListIE,
     PornHubUserVideosUploadIE,
 )
@@ -1606,10 +1605,6 @@ from .vodlocker import VodlockerIE
 from .vodpl import VODPlIE
 from .vodplatform import VODPlatformIE
 from .voicerepublic import VoiceRepublicIE
-from .voicy import (
-    VoicyIE,
-    VoicyChannelIE,
-)
 from .voot import (
     VootIE,
     VootSeriesIE,
